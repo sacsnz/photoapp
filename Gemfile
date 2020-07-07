@@ -18,9 +18,9 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
-gem 'carrierwave'
+gem 'carrierwave', '~> 2.0'
 gem 'mini_magick'
-gem 'fog-core'
+gem 'fog-aws'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
@@ -45,7 +45,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'font-awesome-sass', '~> 5.11.2'
 gem 'stripe'
-# gem 'aws-sdk-s3', '~> 1'
+#  gem 'aws-sdk-s3', '~> 1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
